@@ -25,7 +25,7 @@ def chatter(inputter):
     os.system("play -q output.mp3")
 
 #my_assistant = Assistant(commands_callback=chatter, n_threads=4, model_log_level=logging.ERROR)
-my_assistant = Assistant(model='tiny', commands_callback=chatter, n_threads=4, model_log_level=logging.ERROR)
+my_assistant = Assistant(model='tiny', silence_threshold=120, commands_callback=chatter, n_threads=4, model_log_level=logging.ERROR)
 my_assistant.start()
 
 
