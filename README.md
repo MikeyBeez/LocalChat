@@ -8,3 +8,6 @@ pip install -r requirements.txt
 
 python localchat.py
 
+
+Take a look at this version by my friend.  It needs some work, but it demonstrates using the streaming capability of langchain's LLM module:  https://github.com/abdeladim-s/llm-chatter/blob/main/llm_chatter/main.py   
+
